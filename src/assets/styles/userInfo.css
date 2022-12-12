@@ -1,0 +1,39 @@
+.user-info-container{
+    position: relative;
+    top: 56px;
+}
+
+.user-avatar{
+    position: relative;
+    top: -100px;
+    max-width: 200px;
+    width: 100%;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.user-wallpaper{
+    width: 100%;
+    height: 400px;
+    background-image: url("http://cdn.shopify.com/s/files/1/0565/7080/6458/collections/11f67cadfcdfd8784ca89aa86130c5e5.jpg?v=1660200435");
+}
+
+.user-info{
+    position: relative;
+    top: -100px;
+}
+
+.user-info h4{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(63, 61, 61);
+}
+
+.user-info small{
+    font-size: 16px;
+}
+

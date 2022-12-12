@@ -1,0 +1,37 @@
+.hotel-card{
+    border-radius: 30px !important;
+    overflow: hidden;
+    height: 500px;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    -ms-border-radius: 30px !important;
+    -o-border-radius: 30px !important;
+}
+
+.hotel-image{
+    min-height: 200px;
+}
+
+.hotel-title{
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 80px;
+}
+
+.hotel-location, .hotel-calendar, .hotel-bed{
+    min-height: 25px;
+    fill: #4d7cfd;
+}
+
+.additional-info{
+    min-height: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    .hotel-title{
+        font-size: 17px;
+    }
+    .hotel-location, .hotel-calendar, .hotel-bed{
+        font-size: 15px;
+    }
+}

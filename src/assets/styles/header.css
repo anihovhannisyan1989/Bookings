@@ -1,0 +1,47 @@
+.header-container{
+    box-shadow: 2px 2px 5px rgba(93, 93, 93, 0.3);
+    height: 5rem;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.login-register-buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.login-register-buttons-container a{
+    display: inline-block;
+    transition: 0.5s linear;
+    width: 5rem;
+    height: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -ms-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+}
+
+.login-register-buttons-container a:hover, .login-register-buttons-container a:active{
+    background-color:rgba(40, 43, 54, 0.8);
+    color: #fff;
+    box-shadow: 2px 2px 5px rgba(93, 93, 93, 0.3);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
